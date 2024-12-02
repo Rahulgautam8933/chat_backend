@@ -1,8 +1,7 @@
-import User from '../models/User.js';  // Add .js extension for local imports
+import User from '../models/User.js';  
 import bcrypt from 'bcryptjs';
-import jwt from 'jsonwebtoken';
 import { apiError } from '../utils/apiError.js';
-import { asyncHandler } from '../utils/asyncHandler.js';
+import { asyncHandler } from '../utils/asynchandler.js';
 import { apiResponse } from "../utils/apiResponse.js";
 // Array to hold the connected users
 let users = [];
