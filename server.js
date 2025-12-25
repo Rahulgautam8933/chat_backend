@@ -3,7 +3,7 @@ import http from 'http';
 import cors from 'cors';
 import { Server } from 'socket.io';
 import dotenv from 'dotenv';
-import connectDB from './config/db.js';  // Add .js extension for local files
+import connectDB from './config/db.js';
 
 // Load environment variables
 dotenv.config();
